@@ -1,8 +1,9 @@
 body{
-    text-align: center
+    text-align: center;
+	font-family: "adelle", Georgia, "Times New Roman", serif;
 }
 h1{
-    text-align: center
+    text-align: center;
 }
 h3{
     text-align: center
@@ -15,4 +16,10 @@ li{
 }
 p{
     text-align: center
+}
+img.tech{
+	max-height: 10%;
+	max-width: 10%;
+	height: auto;
+	width: auto;
 }
