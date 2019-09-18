@@ -2,50 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="A personal website, made by Chase Maguire. Meant to act as a digital resume">
+    <meta name="description" content="A personal website, made by Chase Maguire. Meant to act as a digital resume and my personal site">
     <meta name="author" content="Chase Maguire">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 </head>
 <header> 
     <!-- TODO -->
-    <!-- Add links or script on click to the fields below -->
+    <!-- Have picture disappear when the screen is too small -->
     <!-- I want to tinker with how the resizing works, but for now I am happy with it -->
-    <div class="navbar navbar-dark bg-dark shadow-sm sticky-top" >
-        <div class="container-fluid">
-            <div class="col-6">
-                <h1 class="text-white">Chase Maguire</h1>              
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <a href="#About_me">
-                        <h4 class="text-white" >About me</h4>
-                    </a>
-                </div>
-                <div class="col-sm">
-                    <a href="#Projects">
-                        <h4 class="text-white">Projects</h4>
-                    </a>
-                </div>
-                <div class="col-sm">
-                    <a href="#Education">
-                        <h4 class="text-white">Education</h4>
-                    </a>
-                </div>
-            </div>
-            <div class="row"></div>
-            <div class="row"></div>
+    <div class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Chase Maguire</a>
+        <div class="navbar-nav-scroll">
+            <ul class = "navbar-nav bd-navbar-nav flex-row">
+                <li class = "nav-item">
+                    <a class="nav-link" href="#About">About me</a>
+                </li>
+                <li class = "nav-item">
+					<a class="nav-link" href="#Projects">Projects</a>
+				</li>
+				<li class = "nav-item">
+					<a class="nav-link" href="#Contact">Contact</a>
+				</li>
+				<li class = "nav-item">
+					<a class="nav-link" href="#Statement">Mission Statement</a>
+				</li>
+            </ul>
         </div>
     </div>
 </header>
 <body>
+	<div class="container-fluid">
+		<!-- Empty space -->
+		<div class="row-sm-12"><p> </p></div>
+	</div>
     <div class="container">
         <div class="row">
             <div class="col"> 
                 <img src="images\me\ChaseMaguire-01.jpg" class="rounded image-responsive" alt="My most recent picture" height="auto" width="82%">
             </div>
             <div class="col">
-                <h3 id="About_me">About me</h3>
+                <h3 id="About">About me</h3>
                 <p> </p>
                 <p class = "lead">Welcome to my personal website.</p> 
                 <p>This site is meant to serve as a personal and living resume, showcasing my experience, projects, and knowledge. It is updated frequently, to showcase anything new, from projects, to jobs, and even a new picture.</p>
@@ -54,13 +51,27 @@
                     <li><a href="https://github.com/Wirdal">My github</a></li>
                     <li><a href="mailto:chasemaguire1996@ucdavis.edu">My email</a></li>
                     <li><a href="https://www.linkedin.com/in/chase-maguire-5ab47bb1/">My LinkedIn</a></li>
-                    <li><a href="#"> My resume</a></li>
+                    <li><a href="https://www.overleaf.com/project/5b9bf08196234d42de40ee94/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-24sf&popupDownload=true"> My resume (Download)</a></li>
                 </ul>
             </div>
         </div>
-        <div class="row-lg">
-            <h4 id="Projects">Projects</h4>
-            <p>The projects below are primarily found on github, however, some go unlisted, or explain in greater detail what the purpose of the project was, and what my contribution to it was.</p>
+        <div class="row-md-12">
+            <h3 id="Projects">Projects</h3>
+            <p>The projects below are primarily found on Github, however, some go unlisted, or have their own site.</p>
+			<h4>Ongoing Projects</h4>
+			<div class="row">
+			<!-- TODO: Fill in current projects-->
+				<div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">MONOWar</h5>
+                        <p class="card-text">A tactics game similair to Advanced Wars. Made with an XNA implementation known as MONOGAME </p>
+                        <a class="card-link">Site (Coming soon)</a>
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<h4>Finished/Stale Projects</h4>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
