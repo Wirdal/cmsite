@@ -5,13 +5,14 @@
     <meta name="description" content="A personal website, made by Chase Maguire. Meant to act as a digital resume and my personal site">
     <meta name="author" content="Chase Maguire">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 </head>
 <header> 
     <!-- TODO -->
     <!-- Have picture disappear when the screen is too small -->
     <!-- I want to tinker with how the resizing works, but for now I am happy with it -->
-    <div class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="navbar navbar-expand-md navbar-dark bg-dark navbar-fixed-top" role="navigation">
         <a class="navbar-brand" href="#">Chase Maguire</a>
         <div class="navbar-nav-scroll">
             <ul class = "navbar-nav bd-navbar-nav flex-row">
@@ -48,7 +49,7 @@
                 <p>This site is meant to serve as a personal and living resume, showcasing my experience, projects, and knowledge. It is updated frequently, to showcase anything new, from projects, to jobs, and even a new picture.</p>
                 <p>Below are some ways to get into contact with me, as well as my links to social media.</p>
                 <ul class="list-unstyled">
-                    <li><a href="https://github.com/Wirdal">My github</a></li>
+                    <li><a href="https://github.com/Wirdal">My Github</a></li>
                     <li><a href="mailto:chasemaguire1996@ucdavis.edu">My email</a></li>
                     <li><a href="https://www.linkedin.com/in/chase-maguire-5ab47bb1/">My LinkedIn</a></li>
                     <!-- <li><a href="https://www.overleaf.com/project/5b9bf08196234d42de40ee94/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-24sf&popupDownload=true"> My resume (Download)</a></li> -->
@@ -104,15 +105,20 @@
         </div>
         <div class="row-md-12">
             <h3 id="Prof">Professional Experience</h3>
+            <p> Since I am fresh graduate, my professional experience is quite limited.</p>
         </div>
         <!-- Each list item is defined like this, we utilize the grid system of bootstrap -->
-        <dl class="row">
+        <dl class="row-md-12">
             <dt class="col-md-4">Operational Support</dt>
             <dd class="col-md-8">
                 <b>April 2018 - June 2019</b>
-                <p>Providing tech support to on campus computer labs, along with advising the help desk position</p>
+                <p>Providing tech support to on campus computer labs, along with advising the help desk position. Minor computer administration</p>
             </dd>
         </dl>
+        <div class = "row-md-12">
+            <h3 id="Contact">Contact</h3>
+            <p>The best (and possibly only) way to reach me is through <a href="mailto:chasemaguire1996@ucdavis.edu">email</a>, I check it quite often. A reply should be expected within the day, if not the week.</p>
+        </div>
     </div>
 <script src="js/bootstrap.min.js"></script>
 </body>
