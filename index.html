@@ -5,14 +5,18 @@
     <meta name="description" content="A personal website, made by Chase Maguire. Meant to act as a digital resume and my personal site">
     <meta name="author" content="Chase Maguire">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark " role="navigation">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
         <a class="navbar-brand" href="#">Chase Maguire</a>
-        <div class="navbar-nav-scroll">
-            <ul class = "navbar-nav bd-navbar-nav flex-row">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class = "navbar-nav mr-auto">
                 <li class = "nav-item">
                     <a class="nav-link" href="#About">About me</a>
                 </li>
@@ -31,8 +35,10 @@
 	</div>
     <div class="container">
         <div class="row">
-            <div class="col"> 
-                <img src="images\me\ChaseMaguire-01.jpg" class="rounded image-responsive" alt="My most recent picture" height="auto" width="82%">
+            <div class="col-sm"> 
+                <div class="text-center">
+                    <img src="images\me\ChaseMaguire-01.jpg" class="rounded image-responsive" alt="My most recent picture" height="auto" width="80%">
+              </div>
             </div>
             <div class="col">
                 <h3 id="About">About me</h3>
@@ -116,6 +122,5 @@
             <p>The best (and possibly only) way to reach me is through <a href="mailto:chasemaguire1996@ucdavis.edu">email</a>, I check it quite often. A reply should be expected within the day, if not the week.</p>
         </div>
     </div>
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
